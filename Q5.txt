@@ -1,0 +1,7 @@
+Q5. What are Higher-Order Components (HOC) in React and how do they work?
+
+Answer=>    A higher-order component is a function that takes a component and returns a new component. 
+            The new component will have the same props as the original component, but it will also have the 
+            additional functionality of the Higher order component.
+
+

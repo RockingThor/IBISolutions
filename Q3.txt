@@ -1,0 +1,12 @@
+Q3. What is Sharding in MongoDB, and how does it work?
+
+Answer=>    Distributing data across multiple machine in a mongoDB cluster is called shrading. This method
+            helps user to scale his DB horizontally so that the DB can handle more traffic or can hold more
+            data when the time comes.
+
+Work Procedure =>   First of all I have to create a sharded cluster by adding one or more shards in my cluster.
+                    Then, I have to shard a collection by mentioning the shard key. Mongodb will automatically 
+                    distribute the data chunks in the collection across my cluster. When any CRUD operation will
+                    be performed it will be automatically update shard key and distribute the document to the 
+                    appropiate shard. When I query anything it will query the appropiate shard and will bring me 
+                    the result.

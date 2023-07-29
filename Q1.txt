@@ -1,0 +1,18 @@
+Question: What are the differences between cookie, local storage and session storage?
+
+Answer=>
+
+Cookie =>   Cookies are mostly small text files that are stored on the user's computer by a website
+            using the browser. In most of the cases maximum amount of cookies stored by a specific 
+            domain is limited to 4kB. The data stored in the cookie can be shared across the various
+            websites. Also cookie storage easy to access s it is a concern when it comes to security.
+
+Local storage =>    Local storage is another way to save data in the user's computer. Mostly the memory
+                    limit is more than cookie which is upto 10MB by a specific domain. The data stored in
+                    the local storage can only be accessed by the browser. The stored in the local storage 
+                    is not sent over every request. The data stored in the local storage stays intact till 
+                    the time it is deleted by the user or the browser.
+
+session Storage =>  Session Storage is used to store data which  are for the duration of the current browser session.
+                    The memory limit of session storage is upto 5MB by a specific website domain. The data stored in
+                    the session storage gets automatically deleted deleted when the session get over.
